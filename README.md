@@ -5,5 +5,7 @@ Example how to use ffmpeg to decode video file. Link to article about [decode wi
 Example shows you the basic FFmpeg functions. Sample program opens video file and stores to a disk first 50 frames. You can change descriptions to setup program:
 
 ``#define FILE_NAME "C:\\temp\\test.avi"``
+
 ``#define OUTPUT_FILE_PREFIX "c:\\temp\\image%d.bmp"``
+
 ``#define FRAME_COUNT 50``
